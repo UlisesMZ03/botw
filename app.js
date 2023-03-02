@@ -58,7 +58,7 @@ const flujoPedido = addKeyword(['cita', 'pedir']).addAnswer(
 )
 
 const conversacionPrincipal = addKeyword(['hola', 'ole', 'buenas', 'inicio','buenos','dias','saludos','hello','hi','Como estas?','pura vida','todo bien'])
-  .addAnswer('*¡Bienvenido a Barber Shop JP!* 🪒💈👋',{media: 'https://scontent.fsyq4-2.fna.fbcdn.net/v/t39.30808-6/333216403_528395052771234_1466611020822997947_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=S05d7YLrxD8AX-n40yA&_nc_ht=scontent.fsyq4-2.fna&oh=00_AfB09p74HBxiqFO1fdIeW2UOEdTJShcGtZ3OEeTUIq1PAg&oe=640569EB'})
+  .addAnswer('*¡Bienvenido a Barber Shop JP!* 🪒💈👋',{media: 'https://i.postimg.cc/ZnSS4h9m/barbershopjp.jpg'})
   .addAnswer(
       [`Estas son las opciones:`,'👉Selecciona *Cita* para obtener el link','👉 Selecciona *Precio* para obtener los precios','👉 Selecciona *Ubicacion* para obtener la ubicacion'],{
         buttons:[
