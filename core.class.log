@@ -1,0 +1,43 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '50661369889@s.whatsapp.net',
+    fromMe: false,
+    id: '3AE494053DA3233B631B',
+    participant: undefined
+  },
+  messageTimestamp: 1677741853,
+  pushName: 'BarberShop JP',
+  message: Message {
+    conversation: 'Hola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Hola',
+  from: '50661369889'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '50661369889@s.whatsapp.net',
+    fromMe: false,
+    id: '3A8EF27E9D250FEF70CC',
+    participant: undefined
+  },
+  messageTimestamp: 1677741858,
+  pushName: 'BarberShop JP',
+  message: Message {
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    },
+    buttonsResponseMessage: ButtonsResponseMessage {
+      selectedButtonId: 'id-btn-2',
+      selectedDisplayText: 'Horario',
+      contextInfo: [ContextInfo],
+      type: 1
+    }
+  },
+  body: 'Horario',
+  from: '50661369889'
+}
