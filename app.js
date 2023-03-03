@@ -42,7 +42,7 @@ const flujoUbicacion = addKeyword('ubicacion','ubicación','Ubicación','ubicado
 const flujoPrecio = addKeyword('precio').addAnswer(['💈Estos son los precios de nuestros servicios💈 ','Corte General: *4000*💵 ',
 'Corte y barba: *5000*💵 ','Cejas: *1000*💵 ','Marcado: *2000*💵 ','Corte Niño: *3500*💵 ','Barba: *2000*💵 '])
 
-const flujoHorario = addKeyword('horario','Horario').addAnswer(['💈Estos son los horarios💈 ','Lunes a sabado: *9:00AM a 6:00PM*🕐✂️ ','Domingo: *CERRADO*🕐✂️ '],null)
+const flujoHorario = addKeyword('horario','Horario').addAnswer(['💈Estos son los horarios💈 ','Lunes a sabado: *9:00AM a 7:00PM*🕐✂️ ','Domingo: *CERRADO*🕐✂️ '],null)
 const flujosCita = addKeyword('cita').addAnswer(
   ['Accediendo a este link podras agendar tu cita☎️📆'],
   null,
