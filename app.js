@@ -63,7 +63,7 @@ const flujoPedido = addKeyword(['cita', 'pedir']).addAnswer(
 const conversacionPrincipal = addKeyword(['hola', 'ole', 'buenas', 'inicio','buenos','dias','saludos','hello','hi','Como estas?','pura vida','todo bien'])
   .addAnswer('*¡Bienvenido a Barber Shop JP!* 🪒💈👋',{media: 'https://i.postimg.cc/ZnSS4h9m/barbershopjp.jpg'})
   .addAnswer(
-      [`Estas son las opciones:`,'👉Selecciona *Cita* para obtener el link','👉 Selecciona *Precio* para obtener los precios','👉 Selecciona *Horario* para obtener los horarios','👉 Selecciona *Ubicacion* para obtener la ubicacion,','👉 Selecciona *Fotos* para obtener fots de algunos cortes.'],
+      [`Estas son las opciones:`,'👉Selecciona *Cita* para obtener el link','👉 Selecciona *Precio* para obtener los precios','👉 Selecciona *Horario* para obtener los horarios','👉 Selecciona *Ubicacion* para obtener la ubicacion,','👉 Selecciona *Fotos* para obtener fots de algunos cortes.'],{
     buttons:[
           {
             body: 'Cita'
@@ -79,7 +79,10 @@ const conversacionPrincipal = addKeyword(['hola', 'ole', 'buenas', 'inicio','bue
           },
           {
             body: 'Fotos'
-          },
+          }
+    ]
+      }
+    ,null,
       [
         flujosCita,flujoPrecio,flujoHorario,flujoUbicacion,flujoFotos
     ]
