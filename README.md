@@ -3,16 +3,12 @@
 Este bot para WhatsApp utiliza la librería Baileys para conectarse a WhatsApp Web y manejar mensajes automáticamente.
 Puedes personalizar respuestas, agregar comandos, leer mensajes y más. Ideal para proyectos personales, automatización o pruebas. ¡Escanea el QR y empieza a interactuar!
 
-shell
-Copy
-Edit
+
 npm install
 node app.js
 También puedes usar Docker para ejecutar el bot de forma contenida:
 
-shell
-Copy
-Edit
+
 docker build -t whatsapp-bot .
 docker run -it whatsapp-bot
 🧩 Funcionalidades
